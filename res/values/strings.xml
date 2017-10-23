@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Tastifai</string>
-    <string name="action_settings">Settings</string>
-    <string name="planet_prompt">Choose a planet</string>
-
-
     <string-array name="unlocked_cafe">
         <item>Cold Coffee</item>
         <item>Jumbo Burger</item>

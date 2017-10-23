@@ -5,8 +5,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell.tastifai.MainActivity">
+    tools:context="com.example.rohannevrikar.tastifai.MainActivity">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        card_view:cardCornerRadius="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/spinner2"
+        android:layout_marginLeft="29dp">
 
+        <TextView
+            android:text="Hello Card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
 
     <Spinner
         android:id="@+id/spinner2"
@@ -14,7 +30,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="113dp"
         android:entries="@array/unlocked_cafe"
-        android:prompt="@string/planet_prompt"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -26,12 +41,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/spinner2"
-        android:textSize="20sp"
         android:layout_alignLeft="@+id/spinner2"
         android:layout_alignStart="@+id/spinner2"
         android:layout_marginBottom="42dp"
-        android:text="TextView"
+        android:text="Cafe Unlocked"
         android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
         tools:text="Cafe Unlocked" />
 
     <TextView
@@ -66,7 +81,6 @@
         android:text="Rate this dish" />
 
 </RelativeLayout>
-
 
 
 
