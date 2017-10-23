@@ -1,11 +1,17 @@
 <resources>
-    <string name="app_name">Tastifai</string>
+    <string name="app_name">Cafe Unlocked</string>
+    <string name="cafe_unlocked">Cafe Unlocked</string>
     <string-array name="unlocked_cafe">
         <item>Cold Coffee</item>
+        <item>Belgian Choco Shot</item>
         <item>Jumbo Burger</item>
-        <item>Pizza</item>
-        <item>Macaroni</item>
-        <item>Pasta</item>
+        <item>Big Crunch Chicken Cheese Burger</item>
+        <item>Big Crunch Veg Classic Burger</item>
+        <item>Afghani Chicken Biryani</item>
+        <item>Chilli Cheese Toastizza</item>
+        <item>Cocoa Fudge</item>
+        <item>Cocoa Fantasy Cake</item>
+
     </string-array>
 
 </resources>
