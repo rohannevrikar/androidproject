@@ -44,10 +44,10 @@ class DatabaseHelper extends SQLiteOpenHelper {
         ContentValues contentValues = new ContentValues();
         contentValues.put(COL2, dish);
         contentValues.put(COL3, newEntry);
-        Log.d("Values", contentValues.toString());
+        //Log.d("Values", contentValues.toString());
         long result = db.insert(TABLE_NAME, null, contentValues);
 
-        Log.d("Result", result + "");
+        //Log.d("Result", result + "");
 
         if (result == -1) {
             return false;
